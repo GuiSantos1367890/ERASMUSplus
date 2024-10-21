@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <title>ESEC + Erasmus+</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" href="imagens\ESEC+.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<style>
+  .swiper-pagination-bullet {
+    width: 40px;
+    height: 40px;
+    margin: 10px !important;
+    text-align: center;
+    line-height: 40px;
+    padding: 0%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3D35A5;
+    outline: 3px solid #3D35A5;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0);
+  }
+
+
+  .swiper-slide-active .cartao {
+    background-color: #3D35A5 !important;
+  }
+
+  .swiper-slide-active .cartao .quatro {
+    color: #ffffff !important;
+  }
+
+  .swiper-slide-active .cartao .texto-cartao_1 {
+    color: #ffffff !important;
+  }
+
+  .swiper-slide-active a.btn.btn-warning.cartao_buton {
+
+    background-color: #ffffff !important;
+    color: #3D35A5 !important;
+    border-radius: 30px !important;
+    padding: 7px 20px !important;
+    font-weight: 800 !important;
+    font-size: 1em !important;
+    border: 0 !important;
+  }
+
+  .swiper-pagination {
+    position: static;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+  }
+
+  @media (max-width: 1400px) {
+    .swiper-slide {
+      margin-right: 200px !important;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .swiper-slide {
+      margin-right: 0px !important;
+      margin-left: 30px !important;
+    }
+  }
+
+
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #3D35A5;
+  }
+</style>
+
+<body class="overflow-x-hidden">
+
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="container mt-5">
+        <div class="clearfix">
+          <nav class="navbar navbar-expand-lg mt-4">
+            <div class="container-fluid">
+              <a class="masthead-brand" href="index.html"><img src="imagens\ESEC+ Logo Organizado-09.png" width="190px"
+                  alt="logo"></a>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link mx-4 active" href="erasmus.html">ERASMUS+</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-4" href="esec.html">ESEC</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-4" href="coimbra.html">COIMBRA</a>
+                  </li>
+                </ul>
+                <a class="btn btn-light mx-5 aplicar" href="form.html">APPLY NOW</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="row inner cover">
+          <div class="col-lg-6 land">
+            <h1 class="display-3 h1 intro">Transform yourself with ERASMUS+ at ESEC</h1>
+            <p class="col-md-9 fw-normal my-5 sub hfive">ERASMUS+ at ESEC is a journey of self-discovery that expands
+              your
+              horizons. Here, you will be challenged by high-quality courses and participate in vibrant extracurricular
+              activities. Our goal is to inspire you, equip you with intercultural skills, and prepare you for an
+              interconnected world. Are you ready to start your journey?
+            </p>
+          </div>
+
+          <div class="col-lg-6 mt-5">
+            <img class="inicio_img" src="imagens\erasmus_bg.png" style="width: 160%; height: auto;">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="swiper mySwiper">
+    <div class="container mb-5 land_e" id="apply">
+      <h1 class="display-3 h1" style="color: #3D35A5;">How can I apply?</h1>
+    </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card rounded-4 cartao shadow" style="width: 24rem;">
+          <div class="card-body p-5">
+            <h3 class="card-title mb-4 quatro">Check the <br>Bilateral Agreement</h3>
+            <p class="card-text text-start texto-cartao_1">To start the application process for the ERASMUS+ program
+              at ESEC, the first step
+              is to confirm with your school’s International Office if there is a Bilateral Agreement established
+              with ESEC. If so, you are ready to proceed with your application.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card rounded-4 cartao shadow" style="width: 24rem;">
+          <div class="card-body p-5">
+            <h3 class="card-title mb-4 quatro">Express your Interest</h3>
+            <p class="card-text texto-cartao_1">Next, it is necessary for your institution to express your interest
+              in participating in the ERASMUS+ program at ESEC by clicking the ‘Apply Now’ button and filling out
+              the form</p>
+            <a href="form.html" class="btn btn-warning cartao_buton">APPLY NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card rounded-4 cartao shadow" style="width: 24em;">
+          <div class="card-body p-5">
+            <h3 class="card-title mb-4 quatro">Fill out the
+              Application Form</h3>
+            <p class="card-text texto-cartao_1">After this step, ESEC will contact you by email, sending an
+              application
+              form. Remember that the application deadlines are as follows:
+              <br><br>
+              <b>Autumn Period (1st semester)</b>
+              Applications: from March 23 to September 14 <br>
+              Start of classes: Mid-September to mid-February
+              <br><br>
+              <b> Spring Period (2nd semester)</b>
+              Applications: to be defined <br>
+              Start of classes: Mid-February to mid-June
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card rounded-4 cartao shadow" style="width: 24rem;">
+          <div class="card-body p-5">
+            <h3 class="card-title mb-4 quatro">Receive the
+              Application Review</h3>
+            <p class="card-text texto-cartao_1">Finally, after submitting your application form, the ESEC
+              International
+              Office will review your request and:
+              Inform you about the acceptance of your application;
+              In case of acceptance, provide you with more information to start your journey.</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card rounded-5 cartao" style="width: 30rem;">
+          <div class="card-body p-5">
+            <h3 class="card-title mb-4 quatro">Ready for your new journey?</h3>
+            <p class="card-text texto-cartao_1">Discover a journey of growth and discovery with Erasmus+ at ESEC.</p>
+            <a href="form.html" class="btn btn-warning cartao_buton">APPLY NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination mt-4"></div>
+
+  </div>
+
+
+  <svg onclick="topFunction()" id="myBtn"  xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+  </svg>
+
+  <!--FAqs-->
+  <div class="container land_e" id="faq1">
+    <h1 class="display-4 formulario_ti mb-5">F.A.Q's</h1>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            What are the requirements to participate in the ERASMUS+ program at ESEC?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">To participate in the Erasmus program at ESEC, you need to be enrolled in a
+            regular course and be at least in your 2nd year of enrollment. Your choice for ESEC should align with your
+            area of study. After registration, the process of ranking and placing will be carried out.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Which countries are covered by the ERASMUS+ program?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">The Erasmus+ program includes all EU Member States, as well as countries such as
+            North Macedonia, Serbia, Iceland, Liechtenstein, Norway, Turkey, and certain third countries not associated
+            with the Program, depending on specific conditions.
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Is there financial support to participate in the ERASMUS+ program?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Yes, Erasmus+ offers scholarships to help cover travel and living expenses. The
+            scholarship amount varies according to various factors and the institution. There is also additional
+            financial support available for students with health problems. For more details, consult your home
+            institution.
+
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            Does the ERASMUS+ program offer insurance?
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Yes, your home school provides insurance for Erasmus mobility. This insurance
+            includes medical assistance, urgent dental treatments, protection for electronic devices in case of theft,
+            robbery, fire, fall or short circuit, and Civil Liability coverage that covers damages caused to third
+            parties. The coverages may vary, so check the details with your school before leaving.
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+            How long does the ERASMUS+ program last?
+          </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Mobility under the ERASMUS+ program usually lasts one teaching semester. If you
+            wish to extend your stay for another semester, you can apply for it.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+            Do I pay tuition at ESEC during the ERASMUS+ program?
+          </button>
+        </h2>
+        <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">No, at ESEC you will be exempt from paying tuition fees. However, small fees may
+            be charged for certain costs, such as insurance or student association fees.
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+            Will I be accompanied by a tutor during the ERASMUS+ program?
+          </button>
+        </h2>
+        <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Yes, you will be accompanied by a tutor/teacher. This tutor/teacher will assist
+            you during your stay, providing academic support and helping to facilitate your integration into the new
+            institution.
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+            Can I quit halfway through the ERASMUS+ program?
+          </button>
+        </h2>
+        <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Yes, it is possible to quit the ERASMUS+ program. However, if you quit mobility
+            after you have received the scholarship or if you return earlier than initially planned, you may have to
+            return the scholarship received, in whole or in part. It is important to check the specific conditions of
+            your mobility contract with your home school.
+
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+            How can I contact the ERASMUS+ coordinator?
+          </button>
+        </h2>
+        <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">You can contact the Institutional Coordinator LLP/Erasmus, Maria João Cardoso,
+            through the following contacts: Address: Rua da Misericórdia – Lagar dos Cortiços – S. Martinho do Bispo,
+            3045-093 Coimbra, Portugal Phone: +351 239 791 250 Email: dga.sri@ipc.pt
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+            How can I contact the ESEC International Team?
+          </button>
+        </h2>
+        <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">The ESEC International Team is composed of:
+            <br> <b>Pedro Balaus Custódio – International Relations Coordinator</b>
+            <br>
+            <ul>
+              <li>Email: ir@esec.pt</li>
+              <li>Phone: +351 239 793 120</li>
+            </ul>
+            <b>Alexandra Antunes – International Relations Specialist</b>
+            <ul>
+              <li>Email: incoming@esec.pt</li>
+              <li>Phone: +351 239 793 120</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+            What are the important ESEC information I need to know?
+          </button>
+        </h2>
+        <div id="flush-collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">ESEC, is located at Rua D. João III, Solum, 3030-329 Coimbra, Portugal. Its
+            official website is “esec.pt” where you can find detailed information about the courses offered, events,
+            news and much more. In addition, for Erasmus+ programs and initiatives, ESEC is identified by the Erasmus
+            code P COIMBRA 02.
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="bd-footer py-4 py-md-5 mt-5 rounded">
+    <div class="container py-4 py-md-5 px-4 px-md-3 text-white">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="index.html"
+            aria-label="Bootstrap">
+            <img src="imagens\ESEC+ Logo Organizado-09.png" width="170" alt="">
+          </a>
+          <ul class="list-unstyled small">
+            <li class="mb-2">ERASMUS + ESEC
+              ©2024</li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+          <h5>ERASMUS+</h5>
+          <ul class="list-unstyled">
+            <li class="nav-item mb-2"><a href="erasmus.html#apply" class="nav-link p-0 text-white lista">How can I
+                apply?</a>
+            </li>
+            <li class="nav-item mb-2"><a href="erasmus.html#faq1" class="nav-link p-0 text-white lista">F.A.Q’s</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>ESEC</h5>
+          <ul class="list-unstyled">
+            <li class="nav-item mb-2"><a href="esec.html#objectives" class="nav-link p-0 text-white lista">Which are
+                ESEC’s
+                objectives?</a>
+            </li>
+            <li class="nav-item mb-2"><a href="esec.html#courses" class="nav-link p-0 text-white lista">What courses and
+                departments
+                does it have?</a></li>
+            <li class="nav-item mb-2"><a href="esec.html#benefit" class="nav-link p-0 text-white lista">The benefits of
+                studying at
+                IPC/ESEC</a></li>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>COIMBRA</h5>
+          <ul class="list-unstyled">
+            <li class="nav-item mb-2"><a href="coimbra.html#treasures" class="nav-link p-0 text-white lista">Explore the
+                city of
+                Coimbra </a>
+            </li>
+            <li class="nav-item mb-2"><a href="coimbra.html#vida" class="nav-link p-0 text-white lista">Enjoy the
+                academic
+                life</a></li>
+            <li class="nav-item mb-2"><a href="coimbra.html#acomodacao" class="nav-link p-0 text-white lista">Lodging
+              </a></li>
+            <li class="nav-item mb-2"><a href="coimbra.html#transportes"
+                class="nav-link p-0 text-white lista">Mobility</a></li>
+            <li class="nav-item mb-2"><a href="coimbra.html#saude" class="nav-link p-0 text-white lista">IPC Health
+                Plan</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>HEADQUARTERS</h5>
+          <ul class="list-unstyled">
+            <li class="nav-item mt-4">
+              <a href="https://maps.app.goo.gl/9iZzVYRHxukJyhfE7" target="_blank" class="nav-link p-0 text-white">Escola
+                Superior de Educação de Coimbra <br><br>R. Dom João III, 3030-329 Coimbra</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script>
+    var swiper = new Swiper('.mySwiper', {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      centeredSlides: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+
+
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
+
+  </script>
+</body>
+
+</html>

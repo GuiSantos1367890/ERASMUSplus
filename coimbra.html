@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Esec + Coimbra</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="imagens\ESEC+.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<style>
+    .card {
+        border: none !important;
+        border-radius: 30px !important;
+    }
+
+    .blog-slider {
+        background: #3D35A5 !important;
+        max-width: 100% !important;
+        height: 700px !important;
+        border-radius: 50px !important;
+    }
+
+
+    .blog-slider__img {
+        width: 550px !important;
+        margin-right: 25px !important;
+        transform: translateX(0px) !important;
+        height: 620px !important;
+    }
+
+
+    .blog-slider__title {
+        color: #ffffff;
+        font-size: 52px;
+        margin-bottom: 30px;
+    }
+
+    .blog-slider__text {
+        color: #ffffff !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #ffffff !important;
+    }
+
+    .blog-slider__pagination .swiper-pagination-bullet {
+        background: #ffffff !important;
+    }
+
+    .slide-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(0deg, rgba(61, 53, 165, 0.83) 0%, rgba(102, 102, 102, 0.00) 100%);
+        border-radius: 15px;
+        color: white;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .swiper-slide {
+        position: relative;
+    }
+
+    .rounded-pill {
+        font-weight: 600 !important;
+    }
+
+    .site-wrapper {
+        display: table;
+        width: 100%;
+        background-color: #3D35A5;
+        border-radius: 0px 0px 250px 0px;
+        height: 600px;
+        /*min-height: 100%;*/
+    }
+
+
+    @media (max-width: 576px) {
+        .blog-slider__img {
+            width: 95% !important;
+            margin-right: 0px !important;
+            margin-bottom: 150px !important;
+            transform: translateY(-30%) !important;
+            height: 250px !important;
+        }
+
+        .land_l {
+            margin-top: 70px !important;
+        }
+
+        .land_c {
+            margin-top: 0px !important;
+        }
+
+        .blog-slider {
+            height: auto !important;
+        }
+
+        .blog-slider__title {
+            color: #ffffff;
+            font-size: 30px !important;
+        }
+
+        .blog-slider__text {
+            font-size: 12px !important;
+        }
+    }
+</style>
+
+<body class="overflow-x-hidden">
+
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+            <div class="container mt-5">
+                <div class="clearfix">
+                    <nav class="navbar navbar-expand-lg mt-4">
+                        <div class="container-fluid">
+                            <a class="masthead-brand" href="index.html"><img src="imagens\ESEC+ Logo Organizado-09.png"
+                                    width="190px" alt="logo"></a>
+                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+
+                                <span class="toggler-icon top-bar"></span>
+                                <span class="toggler-icon middle-bar"></span>
+                                <span class="toggler-icon bottom-bar"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-4" href="erasmus.html">ERASMUS+</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-4" href="esec.html">ESEC</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-4 active" href="coimbra.html">COIMBRA</a>
+                                    </li>
+                                </ul>
+                                <a class="btn btn-light mx-5 aplicar" href="form.html">APPLY NOW</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="row inner cover">
+                    <div class="col-lg-6 land_l">
+                        <h1 class="display-3 h1 intro">Discover the largest academic city in Portugal</h1>
+                        <p class="col-md-9 fw-normal my-5 sub hfive"><b>Coimbra</b> is a city that combines history,
+                            culture,
+                            and
+                            entertainment. It is home to the University of Coimbra, founded in 1290, one of the oldest
+                            and most
+                            prestigious universities in Europe.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6 mt-5">
+                        <img class="inicio_img" src="imagens\c_gb.png" style="width: 160%; height: auto;">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container my-5">
+
+
+
+
+
+        <div class="row featurette land_c align-items-center">
+            <div class="col-md-6">
+                <h1 class="featurette-heading h1 vis">Coimbra</h1>
+                <p class="lead col-md-9"><small>The city preserves an unparalleled historical and cultural heritage.
+                        From the top of the “Cabra”, the Tower of the university, you can admire the landscape of the
+                        city and the Mondego River.
+                        <br><br>
+                        In the Biblioteca Joanina , there are thousands of rare books, secured by bats that keep insects
+                        away. Academic life is a celebration, with traditions like ‘Queima das Fitas’ and ‘Latada’
+                        filling the streets.
+                        <br><br>
+                        Coimbra is an unforgettable experience that blends the past and the present. <b
+                            style="font-weight: 600 !important;"> Are you ready to
+                            explore Coimbra?</b></small></p>
+            </div>
+            <div class="col-md-6">
+                <img src="imagens\coimbra.png" width="100%" alt="">
+            </div>
+        </div>
+
+        <div class="row gy-2" id="treasures">
+            <h1 class="display-3 h1 vis mb-5">Explore the city</h1>
+            <a href="https://maps.app.goo.gl/DavbWmsn7Qsg1pSRA" target="_blank"
+                class="col-sm-6 col-md-6 mb-4 d-flex align-items-stretch tesouro">
+                <div class="card rounded-5" style="position: relative;">
+                    <img src="imagens\uc.png" class="img-fluid" style="width: 100%" alt="Transportation">
+                    <div class="rounded-4"
+                        style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: linear-gradient(to bottom, rgba(255,0,0,0), rgb(34, 34, 34)); z-index: 0;">
+                    </div>
+                    <div class="card-body col-lg-5 mx-3 my-3" style="position: absolute; bottom: 0; left: 0;">
+                        <h5 class="card-title ti">Coimbra University</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://maps.app.goo.gl/hVDQFLdFQjqJ981v5" target="_blank"
+                class="col-6 col-md-3 mb-4 d-flex align-items-stretch tesouro">
+                <div class="card rounded-5" style="position: relative;">
+                    <img src="imagens\seminario.png" class="img-fluid" style="width: 100%" alt="Accommodation">
+                    <div class="rounded-4"
+                        style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: linear-gradient(to bottom, rgba(255,0,0,0), rgb(34, 34, 34)); z-index: 0;">
+                    </div>
+                    <div class="card-body mx-3 my-3" style="position: absolute; bottom: 0; left: 0;">
+                        <h5 class="card-title col-md-8 ti">Seminário Maior de Coimbra</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://maps.app.goo.gl/1411YnYwBWnFNZB87" target="_blank" class="col-6 col-md-3 mb-4 tesouro">
+                <div class="card rounded-5">
+                    <img src="imagens\sta.png" class="img-fluid" style="width: 100%" alt="Library">
+                    <div class="rounded-4"
+                        style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: linear-gradient(to bottom, rgba(255,0,0,0), rgb(34, 34, 34)); z-index: 0;">
+                    </div>
+                    <div class="card-body mx-3 my-3" style="position: absolute; bottom: 0; left: 0;">
+                        <h5 class="card-title ti">Mosteiro de
+                            Santa Clara-a-Velha</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://maps.app.goo.gl/SJG73uD1K4B3hYZ77" target="_blank" class="col-sm-6 col-md-3 mb-4 tesouro">
+                <div class="card rounded-5">
+                    <img src="imagens\castro.png" class="img-fluid" style="width: 100%" alt="Academic Life">
+                    <div class="rounded-4"
+                        style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: linear-gradient(to bottom, rgba(255,0,0,0), rgb(34, 34, 34)); z-index: 0;">
+                    </div>
+                    <div class="card-body mx-3 my-3" style="position: absolute; bottom: 0; left: 0;">
+                        <h5 class="card-title ti">Museu Nacional de Machado de Castro</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://maps.app.goo.gl/QsSvPiqimXebKbbb9" target="_blank" class="col-sm-6 col-md-6 mb-4 tesouro">
+                <div class="card rounded-5">
+                    <img src="imagens\se.png" class="img-fluid" style="width: 100%" alt="Academic Life">
+                    <div class="rounded-4"
+                        style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: linear-gradient(to bottom, rgba(255,0,0,0), rgb(34, 34, 34)); z-index: 0;">
+                    </div>
+                    <div class="card-body mx-3 my-3" style="position: absolute; bottom: 0; left: 0;">
+                        <h5 class="card-title col-md-8 ti">Sé Velha de Coimbra</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://maps.app.goo.gl/dvatP5eLcU9wh24j6" target="_blank" class="col-sm-6 col-md-3 mb-4 tesouro">
+                <div class="card rounded-5">
+                    <img src="imagens\cruz.png" class="img-fluid" style="width: 100%" alt="Academic Life">
+                    <div class="rounded-4"
+                        style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: linear-gradient(to bottom, rgba(255,0,0,0), rgb(34, 34, 34)); z-index: 0;">
+                    </div>
+                    <div class="card-body mx-3 my-3" style="position: absolute; bottom: 0; left: 0;">
+                        <h5 class="card-title col-md-8 ti">Mosteiro de Santa Cruz</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <div class="container" id="vida">
+
+        <h1 class="display-3 h1 vis">Enjoy the academic life</h1>
+        <div class="blog-slider land_l">
+            <div class="blog-slider__wrp swiper-wrapper">
+                <div class="blog-slider__item swiper-slide d-flex">
+                    <div class="blog-slider__img">
+                        <img src="imagens\latada.jpg" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <div class="blog-slider__title">Latada</div>
+                        <div class="blog-slider__text">The “Latada” is a celebration that marks the beginning of the
+                            academic year, usually held in October. This event is dedicated to the freshmen, the new
+                            students who embark on their academic journey in Coimbra.
+                            <br><br>
+                            During the Latada, the freshmen parade through the city streets, dressed in traditional
+                            costumes and carrying soda cans tied with ropes.
+                            <br><br>
+                            The noise of these cans resonates through the streets, symbolizing the students’ entry into
+                            university life. The atmosphere is contagious as the freshmen are accompanied by their
+                            mentors and veterans, strengthening bonds of camaraderie and enthusiasm.
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-slider__item swiper-slide d-flex">
+                    <div class="blog-slider__img">
+                        <img src="imagens\queima.png" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <div class="blog-slider__title">Queima das fitas</div>
+                        <div class="blog-slider__text">The “Queima das Fitas” is Coimbra’s most emblematic academic
+                            event. Held at the end of the academic year, usually in May, this celebration is marked by
+                            an intense week of processions, concerts, parties, and cultural events.
+                            <br><br>
+                            The highlight of the “Queima das Fitas” is the emotional ceremony of burning cotton ribbons
+                            – used to attach to the folders where students keep their notes. Each ribbon, with distinct
+                            colors representing each faculty and course, symbolizes the successful completion of another
+                            academic year.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-slider__item swiper-slide d-flex">
+                    <div class="blog-slider__img">
+                        <img src="imagens\pastas.png" alt="">
+                    </div>
+                    <div class="blog-slider__content p-3">
+                        <div class="blog-slider__title">Benção das Pastas</div>
+                        <div class="blog-slider__text">The ‘Bênção das Pastas’ in Coimbra is a significant event for
+                            university students, marking the closure of an academic stage and symbolizing the transition
+                            to new challenges. The ceremony takes place at the Sé Nova de Coimbra, where students
+                            receive blessings from Bishop D. Virgílio Nascimento Antunes. It is a memorable event that
+                            touches the hearts of students, accompanied by their family and friends.</div>
+
+                    </div>
+                </div>
+                <div class="blog-slider__item swiper-slide d-flex">
+                    <div class="blog-slider__img">
+                        <img src="imagens\serenata.png" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <div class="blog-slider__title">Serenata Monumental</div>
+                        <div class="blog-slider__text">The “Serenata Monumental” is one of the most memorable moments in
+                            Coimbra’s academic life, especially during the “Queima das Fitas.”
+                            <br><br>
+                            Held in the Pátio das Escolas of the University of Coimbra at midnight, when the clock
+                            strikes twelve, the first guitar chords resonate through the courtyard, echoing the
+                            tradition and emotion surrounding this event.
+                            <br><br>
+                            Students sing fado and other traditional songs, creating a magical atmosphere filled with
+                            nostalgia. It is a moment of deep pride and reverence, honoring not only student culture but
+                            also the rich history of the city of Coimbra.
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="blog-slider__pagination"></div>
+        </div>
+
+        <div class="row featurette land_c align-items-center" id="acomodacao">
+            <div class="col-md-6">
+                <h1 class="display-3 h1 vis">Lodging</h1>
+                <p class="lead col-md-9"><small>For a standard double occupancy room, with private bathroom and access
+                        to kitchenettes intended for the preparation of light meals and other common
+                        areas/services.</small></p>
+            </div>
+            <div class="col-md-6">
+                <div class="swiper mySwiper shadow rounded-5">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="imagens\nora.png" width="100%" alt="Imagem 1">
+                            <div class="slide-content" style="text-align: center;">
+                                <h2 class="lod">QUINTA DA <br> NORA</h2>
+                                <a href="https://www.ipc.pt/acao-social/alojamento/" target="_blank"
+                                    class="btn btn-light px-4 rounded-pill mb-3" type="button">
+                                    READ MORE
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imagens\bispo.png" width="100%" alt="Imagem 1">
+                            <div class="slide-content" style="text-align: center;">
+                                <h2 class="lod">S.Martinho <br> do Bispo</h2>
+                                <a href="https://www.ipc.pt/acao-social/alojamento/" target="_blank"
+                                    class="btn btn-light px-4 rounded-pill mb-3" type="button">
+                                    READ MORE
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imagens\owme.png" width="100%" alt="Imagem 1">
+                            <div class="slide-content" style="text-align: center;">
+                                <h2 class="lod">OWME <br>Studios</h2>
+                                <a href="https://www.owme.pt/estudios" target="_blank"
+                                    class="btn btn-light px-4 rounded-pill mb-3" type="button">
+                                    READ MORE
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imagens\lumio.png" width="100%" alt="Imagem 1">
+                            <div class="slide-content" style="text-align: center;">
+                                <h2 class="lod">Lumio <br>Studios</h2>
+                                <a href="https://www.instagram.com/lumiostudios/" target="_blank"
+                                    class="btn btn-light px-4 rounded-pill mb-3" type="button">
+                                    READ MORE
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Adicione mais slides conforme necessário -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="row mt-5" id="transportes">
+            <div class="my-5">
+                <h1 class="display-3 h1 vis">Mobility</h1>
+                <p class="lead "><small>Explore Coimbra's mobility options: buses crisscross the city, cycling
+                        lanes offer scenic rides, and
+                        pedestrian-friendly streets invite leisurely strolls through historic landmarks.</small></p>
+            </div>
+
+            <a href="https://bolt.eu/pt-pt/cities/coimbra/" target="_blank"
+                class="col-md-3 mb-4 d-flex p-1 align-items-stretch tesouro">
+                <div class="card rounded-5 shadow" style="position: relative;">
+                    <img src="imagens\scooter.png" class="img-fluid rounded-5" style="width: 100%" alt="troti">
+                    <div class="rounded-5"
+                        style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(34, 34, 34, 0.616)); z-index: 0;">
+                    </div>
+                    <div class="card-body mx-3 my-3" style="position: absolute; bottom: 0; left: 0;">
+                        <h5 class="card-title">SCOOTERS</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://moovitapp.com/index/pt/transportes_p%C3%BAblicos-lines-Coimbra-1905-1589316"
+                target="_blank" class="col-md-6 mb-4 d-flex p-1 align-items-stretch tesouro">
+                <div class="card rounded-5 shadow" style="position: relative;">
+                    <img src="imagens\smtuc.png" class="img-fluid rounded-5" style="width: 100%" alt="Transportation">
+                    <div class="rounded-5"
+                        style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(34, 34, 34, 0.616)); z-index: 0;">
+                    </div>
+                    <div class="card-body mx-3 my-3" style="position: absolute; bottom: 0; left: 0;">
+                        <h5 class="card-title ti">SMTUC</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.uber.com/global/pt-pt/r/cities/coimbra-centro-pt/" target="_blank"
+                class="col-md-3 mb-4 d-flex p-1 align-items-stretch tesouro">
+                <div class="card rounded-5 shadow">
+                    <img src="imagens\uber.png" class="img-fluid rounded-5" style="width: 100%" alt="uber">
+                    <div class="rounded-5"
+                        style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(34, 34, 34, 0.616)); z-index: 0;">
+                    </div>
+                    <div class="card-body mx-3 my-3" style="position: absolute; bottom: 0; left: 0;">
+                        <h5 class="card-title">UBER</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!--Retangulo-->
+
+        <div class="row featurette land_ipc" id="saude">
+            <div class="col-md-6 ms-auto ">
+                <h2 class="display-3 h1 intro">IPC Health Plan</h2>
+                <h4 class="h1 intro">Health</h4>
+                <p class="lead col-md-10 intro mt-5"><small>Although you can benefit from the IPC Health Plan, in case
+                        of an
+                        emergency, you should use Portugal’s emergency number, which is 112. You can also contact the
+                        Health Line 24 (SNS) at <br> <b class="h1">808 24 24 24</b>
+                        <br><br>
+                        Additionally, the Hospital da Luz in Coimbra and the Coimbra University Hospital Center provide
+                        24-hour urgent care for situations that require rapid intervention.</small></p>
+                <a href="https://www.ipc.pt/acao-social/saude-bem-estar/plano-de-saude-ipc-estudantes/" target="_blank"
+                    class="d-inline-flex align-items-center btn btn-light btn-lg px-4 rounded-pill" type="button">
+                    READ MORE
+                </a>
+            </div>
+            <div class="col-md-6">
+                <img src="imagens\ipc_1.png" class="img-fluid d-sm-block" width="100%">
+
+            </div>
+        </div>
+    </div>
+    <svg onclick="topFunction()" id="myBtn"  xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+      </svg>
+    <div class="body">
+        <div class="rf"></div>
+    </div>
+    <footer class="bd-footer py-4 py-md-5 mt-5 rounded">
+        <div class="container py-4 py-md-5 px-4 px-md-3 text-white">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none"
+                        href="index.html" aria-label="Bootstrap">
+                        <img src="imagens\ESEC+ Logo Organizado-09.png" width="170" alt="">
+                    </a>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">ERASMUS + ESEC
+                            ©2024</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>ERASMUS+</h5>
+                    <ul class="list-unstyled">
+                        <li class="nav-item mb-2"><a href="erasmus.html#apply" class="nav-link p-0 text-white lista">How
+                                can I apply?</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="erasmus.html#faq1"
+                                class="nav-link p-0 text-white lista">F.A.Q’s</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>ESEC</h5>
+                    <ul class="list-unstyled">
+                        <li class="nav-item mb-2"><a href="esec.html#objectives"
+                                class="nav-link p-0 text-white lista">Which are ESEC’s
+                                objectives?</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="esec.html#courses" class="nav-link p-0 text-white lista">What
+                                courses and
+                                departments
+                                does it have?</a></li>
+                        <li class="nav-item mb-2"><a href="esec.html#benefit" class="nav-link p-0 text-white lista">The
+                                benefits of
+                                studying at
+                                IPC/ESEC</a></li>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>COIMBRA</h5>
+                    <ul class="list-unstyled">
+                        <li class="nav-item mb-2"><a href="coimbra.html#treasures"
+                                class="nav-link p-0 text-white lista">Explore the city of
+                                Coimbra </a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="coimbra.html#vida"
+                                class="nav-link p-0 text-white lista">Enjoy the academic
+                                life</a></li>
+                        <li class="nav-item mb-2"><a href="coimbra.html#acomodacao"
+                                class="nav-link p-0 text-white lista">Lodging </a></li>
+                        <li class="nav-item mb-2"><a href="coimbra.html#transportes"
+                                class="nav-link p-0 text-white lista">Mobility</a></li>
+                        <li class="nav-item mb-2"><a href="coimbra.html#saude" class="nav-link p-0 text-white lista">IPC
+                                Health Plan</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>HEADQUARTERS</h5>
+                    <ul class="list-unstyled">
+                        <li class="nav-item mt-4">
+                            <a href="https://maps.app.goo.gl/9iZzVYRHxukJyhfE7" target="_blank"
+                                class="nav-link p-0 text-white">Escola Superior de Educação de Coimbra <br><br>R. Dom
+                                João III, 3030-329 Coimbra</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script>
+        var swiper = new Swiper('.blog-slider', {
+            spaceBetween: 30,
+            effect: 'fade',
+            loop: true,
+            mousewheel: {
+                invert: false,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: true,
+            },
+            // autoHeight: true,
+            pagination: {
+                el: '.blog-slider__pagination',
+                clickable: true,
+            },
+        });
+
+        var swiper = new Swiper('.mySwiper', {
+            spaceBetween: 20,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: true,
+            },
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            mousewheel: {
+                invert: false,
+            },
+        });
+
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
